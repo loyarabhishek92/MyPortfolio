@@ -4,6 +4,8 @@ import 'aos/dist/aos.css'
 import Navbar from "./components/Navbar.jsx";
 import Hero from "./components/Hero.jsx";
 import About from "./components/About.jsx";
+import Skills from "./components/Skills.jsx";
+import Certificates from "./components/Certificates.jsx";
 
 
 
@@ -40,6 +42,8 @@ export default function App() {
       <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
       <Hero />
       <About />
+      <Skills />
+      <Certificates />
 
     </div>
   )
