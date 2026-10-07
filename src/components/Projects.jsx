@@ -1,5 +1,5 @@
 import React, { useRef } from 'react'
-import project1 from '../assets/Certificate.png';
+import project1 from '../assets/project1.png';
 import { ChevronLeft, ChevronRight, ExternalLink } from 'lucide-react';
 import { FaGithub } from 'react-icons/fa';
 
