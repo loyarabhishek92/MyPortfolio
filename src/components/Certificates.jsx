@@ -68,6 +68,10 @@ export default function Certificates() {
 
 
                                 <img src={hero} alt="certificates" className='w-full h-full object-cover rounded-full relative z-10 transform group-hover:scale-105 transition-transform duration-500' />
+
+                                 <div className="absolute inset-0 border-2 border-red-500/30 rounded-full scale-110 group-hover:scale-125 transition-transform duration-500" />
+
+                                <div className="absolute inset-0 border-2 border-red-500/30 rounded-full scale-125 group-hover:scale-150 transition-transform duration-500" />
                             </div>
                         </div>
                     </div>

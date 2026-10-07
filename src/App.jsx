@@ -6,6 +6,9 @@ import Hero from "./components/Hero.jsx";
 import About from "./components/About.jsx";
 import Skills from "./components/Skills.jsx";
 import Certificates from "./components/Certificates.jsx";
+import Projects from "./components/Projects.jsx";
+import Contact from "./components/Contact.jsx";
+import Footer from "./components/Footer.jsx";
 
 
 
@@ -44,6 +47,9 @@ export default function App() {
       <About />
       <Skills />
       <Certificates />
+      <Projects />
+      <Contact />
+      <Footer />
 
     </div>
   )
