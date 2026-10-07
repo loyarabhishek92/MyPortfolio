@@ -5,8 +5,10 @@ export default function Skills() {
     const skills = [
         {name: 'React Js', percentage: 90, color: '#61DAFB'},
         {name: 'Tailwind CSS', percentage: 98, color: '#06B6D4'},
-        {name: 'Vue Js', percentage: 80, color: '#4FC08D'},
-        {name: 'Javascript', percentage: 75, color: '#F7DF1E'},
+        {name: 'Javascript (ES6+)', percentage: 75, color: '#F7DF1E'},
+        {name: 'Node Js', percentage: 80, color: '#4FC08D'},
+        {name: 'Express Js', percentage: 85, color: '#4FC08D'},
+        {name: 'MongoDB', percentage: 89, color: '#4FC08D'},
     ]
     return (
         <section id='skills' className='min-h-screen flex items-center py-20 px-4 sm:px-6 overflow-hidden relative'>
@@ -28,7 +30,7 @@ export default function Skills() {
                         My <span className='text-red-500 dark:text-red-400'>Skills</span>
                     </h2>
                     <p className='mt-4 text-gray-600 dark:text-gray-300 max-w-2xl mx-auto'>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam, totam.
+                        “Turning ideas into responsive, scalable, and user-friendly web applications.”
                     </p>
                 </div>
                 <div className='grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12'>

@@ -10,11 +10,13 @@ export default function About() {
             icon: FaInstagram,
             label: 'Instagram',
             color: 'hover:text-pink-500 hover:border-pink-500/40',
+            link: 'https://www.instagram.com/abhishek_ganprati/',
         },
         {
             icon: FaFacebook,
             label: 'Facebook',
             color: 'hover:text-blue-500 hover:border-blue-500/40',
+            link: 'https://www.facebook.com/abhishek.ganprati92',
         },
         {
             icon: FaTiktok,
@@ -25,6 +27,7 @@ export default function About() {
             icon: FaGithub,
             label: 'Github',
             color: 'hover:text-pink-500 hover:border-pink-500/40',
+            link: 'https://github.com/loyarabhishek92',
         },
         {
             icon: FaYoutube,
@@ -48,14 +51,15 @@ export default function About() {
                         Turning Ideas Into
                         <span className='text-red-600 dark:text-red-400 block'>Digital Reality</span>
                     </h2>
-                    <p className='text-base lg:text-lg mb-8 leading-relaxed dark:text-gray-300 text-gray-700 max-w-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quam eum provident dolores rem nisi, dolor ipsum, autem quasi error consectetur corrupti iusto dolorem voluptatem? Recusandae debitis est dolore officiis.</p>
+                    <p className='text-base lg:text-lg mb-8 leading-relaxed dark:text-gray-300 text-gray-700 max-w-xl'>I’m a Full Stack Web Developer specializing in the MERN Stack, passionate about building modern, responsive, and user-friendly web applications. With a Diploma in Information Technology and hands-on MERN training, I enjoy turning ideas into functional digital experiences using React, Node.js, Express.js, MongoDB, Tailwind CSS, and modern JavaScript technologies.</p>
                     <div className='flex gap-4 mb-8'>
                         {socialLinks.map((social, index) => {
                             const IconComponent = social.icon
                             return (
                                 <a
                                     key={index}
-                                    href="#"
+                                    href={social.link}
+                                    target='_blank'
                                     aria-label={social.label}
                                     data-aos='zoom-in'
                                     data-aos-delay={index * 100}

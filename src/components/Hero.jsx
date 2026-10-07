@@ -48,10 +48,10 @@ export default function Hero() {
                         </h1>
                         <h2 className="text-xl sm:text-2xl font-mono mb-4 dark:text-red-400 text-red-600">
                             <span className="text-gray-400">&lt; </span>
-                            Frontend Developer
+                            Full Stack Web Developer
                             <span className="text-gray-400"> &gt;</span>
                         </h2>
-                        <p className="mb-6 leading-relaxed max-w-md lg:max-w-lg dark:text-gray-300 text-gray-700">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, ipsum!</p>
+                        <p className="mb-6 leading-relaxed max-w-md lg:max-w-lg dark:text-gray-300 text-gray-700">“Building modern, responsive, and scalable web experiences with the MERN Stack.”</p>
                         <div className="flex gap-8 mb-7">
                             {[
                                 {number: '2+', label: 'Years experience'},

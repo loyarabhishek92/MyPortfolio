@@ -29,23 +29,23 @@ export default function Certificates() {
     const certificate = [
         {
             id: 1,
-            title: 'Frontend Developer',
-            issuer: 'Meta',
-            date: '2003',
+            title: 'MERN STACK',
+            issuer: 'Mindrisers Institute of Technology',
+            date: '2025',
             credentialUrl: '#'
         },
         {
             id: 2,
-            title: 'Frontend Developer',
-            issuer: 'Meta',
-            date: '2005',
+            title: 'AI with python',
+            issuer: 'Mero coding',
+            date: '2025',
             credentialUrl: '#'
         },
         {
             id: 3,
-            title: 'Frontend Developer',
-            issuer: 'Meta',
-            date: '2008',
+            title: 'Diploma in Information Technology',
+            issuer: 'Narayani Model Secondary School',
+            date: '2023',
             credentialUrl: '#'
         },
         {
