@@ -13,21 +13,24 @@ export default function Footer() {
             <p className='text-xs'>Frontend Developer</p>
         </div>
         <div className='flex gap-4'>
-            <a href="#"
+            <a href="https://github.com/loyarabhishek92"
+            target='_blank'
             className='hover:text-red-500 transition-colors'>
                 <FaGithub size={20} />
             </a>
-             <a href="#"
+             <a href="https://np.linkedin.com/"
+             target='_blank'
             className='hover:text-red-500 transition-colors'>
                 <FaLinkedin size={20} />
             </a>
-             <a href="#"
+             <a href="https://x.com/"
+             target='_blank'
             className='hover:text-red-500 transition-colors'>
                 <FaTwitter size={20} />
             </a>
         </div>
         <p className='text-xs flex items-center gap-1'>
-            {currentYear} Made with <FaHeart className='text-red-500' /> by <span className='font-semibold text-red-500'>DevMERNyar.coder</span>
+            {currentYear} Made with <FaHeart className='text-red-500' /> by <span className='font-semibold text-red-500'>Abhishek Raj Rauniyar</span>
         </p>
     </div>
     <div className='h-24'>

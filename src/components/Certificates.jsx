@@ -1,4 +1,4 @@
-import React from 'react'
+
 import {motion} from 'framer-motion';
 import hero from '../assets/hero.png';
 import { Award, Calendar, ExternalLink } from 'lucide-react';
@@ -32,28 +32,28 @@ export default function Certificates() {
             title: 'MERN STACK',
             issuer: 'Mindrisers Institute of Technology',
             date: '2025',
-            credentialUrl: '#'
+            credentialUrl: 'https://mindrisers.com.np/'
         },
         {
             id: 2,
             title: 'AI with python',
             issuer: 'Mero coding',
             date: '2025',
-            credentialUrl: '#'
+            credentialUrl: 'https://merocodingclass.com/'
         },
         {
             id: 3,
             title: 'Diploma in Information Technology',
             issuer: 'Narayani Model Secondary School',
             date: '2023',
-            credentialUrl: '#'
+            credentialUrl: 'https://narayani.edu.np/'
         },
         {
             id: 4,
             title: 'Frontend Developer',
             issuer: 'Meta',
             date: '2010',
-            credentialUrl: '#'
+            credentialUrl: 'https://skillshikshya.com/'
         },
     ]
 

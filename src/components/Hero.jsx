@@ -1,5 +1,5 @@
 import { FaFacebook, FaGithub, FaInstagram, FaTiktok, FaYoutube } from "react-icons/fa";
-import hero from '../assets/hero.png';
+import hero1 from '../assets/hero1.png';
 import cv from '../assets/cv.pdf';
 import { DownloadIcon, Mail } from "lucide-react";
 
@@ -23,17 +23,12 @@ export default function Hero() {
                             <div className="absolute inset-0 bg-linear-to-r from-red-600 to-red-800 rounded-full filter blur-2xl opacity-30 group-hover:opacity-50 transition-opacity duration-500" />
 
                             <div className="relative w-72 h-72 sm:w-80 sm:h-80 lg:w-96 lg:h-96">
-                                <img src={hero} alt="hero" className="w-full h-full object-cover rounded-full relative z-10 transform group-hover:scale-105 transition-transform duration-500" />
+                                <img src={hero1} alt="hero" className="w-full h-full object-cover rounded-full relative z-10 transform group-hover:scale-105 transition-transform duration-500" />
                                 <div className="absolute inset-0 border-2 border-red-500/30 rounded-full scale-110 group-hover:scale-125 transition-transform duration-500" />
 
                                 <div className="absolute inset-0 border-2 border-red-500/30 rounded-full scale-125 group-hover:scale-150 transition-transform duration-500" />
-
-
-
                             </div>
-
                         </div>
-
                     </div>
                     <div className="lg:w-3/5 w-full flex flex-col items-center lg:items-start text-center lg:text-left" data-aos="fade-left">
                         <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-red-500/20 mb-5">

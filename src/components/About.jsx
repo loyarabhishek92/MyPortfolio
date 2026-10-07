@@ -22,6 +22,7 @@ export default function About() {
             icon: FaTiktok,
             label: 'TikTok',
             color: 'hover:text-purple-500 hover:border-purple-500/40',
+            link: 'https://www.tiktok.com/en/',
         },
         {
             icon: FaGithub,
@@ -33,6 +34,7 @@ export default function About() {
             icon: FaYoutube,
             label: 'Youtube',
             color: 'hover:text-red-500 hover:border-red-500/40',
+            link: 'https://www.youtube.com/',
         },
     ];
 
